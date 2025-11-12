@@ -1,6 +1,11 @@
 # 简介
 此仓库为大创项目的巡检车存储仓库，内容为小车仿真模型以及相关的nav2导航代码
 
+# 安装库
+```
+pip3 install -y numpy lark empy==3.3.4 catkin_pkg
+```
+
 # 拉取仓库
 ```
 git clone https://github.com/qin343531/car_ros2.git
@@ -32,4 +37,5 @@ ros2 launch navigation2 turtlebot3_navigation2.launch.py
 ```
 这个会启动导航功能，rviz界面
 之后在rviz2中进行导航即可
+
 ![](./images/nav2.png)

@@ -31,7 +31,7 @@ colcon build --parallel-workers 1 --cmake-args -DBUILD_TESTING=OFF -DCMAKE_CXX_F
 ```
 ros2 launch ares_description qinbot_dis.launch.py
 ```
-这个会启动gazebo仿真页面，里面有小车仿真模型与地图
+这个会启动gazebo仿真页面，里面有小车仿真模型与地图，urdf最好选择area_description.urdf
 
 然后运行`qinbot_navigation2/launch/navigation2.launch.py`脚本
 ```
